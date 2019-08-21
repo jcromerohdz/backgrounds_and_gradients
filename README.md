@@ -1,2 +1,2 @@
-# backgrounds_and_gradients
-This project is to learn how to apply backgrounds and gradients with CSS3
+# Backgrounds And Gradients
+This project is to learn how to apply backgrounds and gradients with CSS3.
