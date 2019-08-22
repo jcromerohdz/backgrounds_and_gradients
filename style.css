@@ -63,9 +63,9 @@ footer {
   background-image: url(img/promo_iphone5s.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 262px 203px;
-  width: 269px;
-  height: 204px;
+  background-size: 270px 180px;
+  width: 272px;
+  height: 182px;
 }
 
 #back2 {
@@ -73,9 +73,9 @@ footer {
   background-image: url(img/promo_iphone5c.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 262px 203px;
-  width: 269px;
-  height: 204px;
+  background-size: 270px 180px;
+  width: 272px;
+  height: 182px;
 }
 
 #back3 {
@@ -83,9 +83,9 @@ footer {
   background-image: url(img/promo_30_years.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 262px 203px;
-  width: 269px;
-  height: 204px;
+  background-size: 270px 180px;
+  width: 272px;
+  height: 182px;
 }
 
 #back4 {
@@ -93,9 +93,9 @@ footer {
   background-image: url(img/promo_supplier_responsibility.jpg);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 262px 203px;
-  width: 269px;
-  height: 204px;
+  background-size: 270px 180px;
+  width: 263px;
+  height: 182px;
 }
 /* Style the navbar */
 .topnav {
