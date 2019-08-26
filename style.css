@@ -1,43 +1,41 @@
 body {
-    color: #fff;
-    font-family: lato Light, Helvetica, sans-serif;
-    text-align: center;
+  color: #fff;
+  font-family: lato Light, Helvetica, sans-serif;
+  text-align: center;
 }
 
 .container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-  
-    grid-auto-rows: minmax(100px, auto);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-gap: 5px;
+  max-width: 1080px;
+  margin: 0 auto;
+}
 
-    grid-gap: 5px;
-    max-width: 1080px;
-    margin: 0 auto;
-} 
-
-header { 
-    grid-column: 2 / 12;
-    grid-row: 2 / 2;
-    z-index: 2;   
+header {
+  grid-column: 2 / 12;
+  grid-row: 2 / 2;
+  z-index: 2;
 }
 
 main {
-    grid-row: 1 / 7;
-    grid-column: 1 / 13;
-    background-image: url("img/your_verse_hero.jpg");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: auto;  
+  grid-row: 1 / 7;
+  grid-column: 1 / 13;
+  background-image: url("img/your_verse_hero.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: auto;
 }
 
 section {
-    grid-row: 7 / 11;
-    grid-column: 1 / 13;
+  grid-row: 7 / 11;
+  grid-column: 1 / 13;
 }
 
 footer {
-    grid-row: 9 / 11;
-    grid-column: 3 / 11;
+  grid-row: 9 / 11;
+  grid-column: 3 / 11;
 }
 
 .promoBox {
@@ -47,8 +45,10 @@ footer {
   background-position: bottom;
   background-size: 267px 250px;
 
-  width: 33.33%; /* three boxes (use 25% for four, and 50% for two, etc) */
-  padding: 50px; /* if you want space between the images */
+  width: 33.33%;
+  /* three boxes (use 25% for four, and 50% for two, etc) */
+  padding: 50px;
+  /* if you want space between the images */
 }
 
 #back1 {
@@ -90,80 +90,79 @@ footer {
   width: 263px;
   height: 182px;
 }
+
 /* Style the navbar */
 .topnav {
-    overflow: hidden;
-    background: linear-gradient(rgb(131, 131, 131) 50%,rgb(112, 112, 112) 50%);
-    height: 2.5em;
-    border-radius: 5px;
-    border: 1px solid rgb(116, 115, 115);
-  }
-  
-  /* Navbar links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: black;
-    text-align: center;
-    border-right: 1px solid rgb(77, 76, 76);
-    height: 1.5em;
-    padding: 8px 25px;
-    text-decoration: none;
-    font-size: 14px;
-    color: white;
-    padding-top: 10px;
-  }
+  overflow: hidden;
+  background: linear-gradient(rgb(131, 131, 131) 50%, rgb(112, 112, 112) 50%);
+  height: 2.5em;
+  border-radius: 5px;
+  border: 1px solid rgb(116, 115, 115);
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  border-right: 1px solid rgb(77, 76, 76);
+  height: 1.5em;
+  padding: 8px 25px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  padding-top: 10px;
+}
 
 
-  
-  /* Navbar links on mouse-over */
-  .topnav a:hover {
-    background: rgba(51,51,51,0.6);
-    /* background-color: #ddd;
+
+/* Navbar links on mouse-over */
+.topnav a:hover {
+  background: rgba(51, 51, 51, 0.6);
+  /* background-color: #ddd;
     color: black; */
-  }
-  
-  /* Active/current link */
-  .topnav a.active {
-    background-color: #2196F3;
-    color: white;
-  }
+}
 
-  .topnav ul {
-    
-  }
-  
-  /* Style the input container */
-  .topnav .search-container {
-    float: right;
-  }
-  
-  /* Style the input field inside the navbar */
-  .topnav input[type=text] {
-    padding: 6px;
-    margin-top: 8px;
-    font-size: 17px;
-    border: none;
-  }
-  
-  /* Style the button inside the input container */
-  .topnav .search-container button {
-    float: right;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .topnav .search-container button:hover {
-    background: #ccc;
-  }
+/* Active/current link */
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
 
-  [alt="logo"] {
-    width: 1.5em;
+.topnav ul {}
+
+/* Style the input container */
+.topnav .search-container {
+  float: right;
+}
+
+/* Style the input field inside the navbar */
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+/* Style the button inside the input container */
+.topnav .search-container button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+[alt="logo"] {
+  width: 1.5em;
 }
 
 form {
@@ -201,7 +200,7 @@ form input {
 [alt="flag icon"] {
   position: relative;
   left: 23.5em;
-    top: -2.1em;
+  top: -2.1em;
 }
 
 [type="search"] {
@@ -209,7 +208,7 @@ form input {
   margin-left: 1em;
   margin-top: .75em;
   border-radius: 1em;
-  background: url(img/search_icon.png) 10px 50% no-repeat, linear-gradient(rgb(131, 131, 131) 70%,rgb(112, 112, 112) 50%) no-repeat;
+  background: url(img/search_icon.png) 10px 50% no-repeat, linear-gradient(rgb(131, 131, 131) 70%, rgb(112, 112, 112) 50%) no-repeat;
   background-size: 12px 12px;
   border-top: 1px solid rgb(80, 80, 80);
   border-bottom: 1px solid rgb(144, 144, 144);
@@ -252,14 +251,14 @@ h2 {
 }
 
 .ad-text-container a {
-    color: white;
-    font-size: 1.3em;
-    text-decoration: none;
+  color: white;
+  font-size: 1.3em;
+  text-decoration: none;
 }
 
 .ad-text-container a:hover {
-    text-decoration: underline;
-    width: 1px;
+  text-decoration: underline;
+  width: 1px;
 }
 
 .ad-subhead {
