@@ -224,4 +224,76 @@ form input {
   border-right: none;
   padding-left: 1em;
 }
+
+
+element.style {
+}
+h1 {
+    font-size: 3.5em;
+}
+h1, h2, h3 {
+    font-weight: 100;
+    font-family: "Lato Light", sans-serif;
+}
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    /* font-weight: bold; */
+}
+
+h2 {
+  /* display: block; */
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.header-text-container {
+    position: relative;
+    font-weight: lighter;
+    top: -30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ad-text-container {
+  position: relative;
+  font-weight: bold;
+  top: -30px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ad-subhead {
+  width: 59%;
+  padding: 25px 0;
+}
+
+.header-cta {
+  height: 32px;
+  overflow: hidden;
+}
   
