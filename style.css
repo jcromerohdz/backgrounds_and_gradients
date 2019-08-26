@@ -101,7 +101,6 @@ footer {
 .topnav a {
   float: left;
   display: block;
-  color: black;
   text-align: center;
   border-right: 1px solid rgb(77, 76, 76);
   height: 1.5em;
