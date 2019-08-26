@@ -120,6 +120,7 @@ footer {
 /* Active/current link */
 .topnav a.active {
   background-color: #2196f3;
+
 }
 
 /* Style the input container */
@@ -173,7 +174,7 @@ form input {
   align-content: center;
   grid-column-gap: 5em;
   grid-row-gap: 1em;
-  font-size: .49em;
+  font-size: 0.49em;
   color: dimgray;
   padding-top: 1em;
 }
@@ -196,7 +197,7 @@ form input {
 [type="search"] {
   width: 80%;
   margin-left: 1em;
-  margin-top: .75em;
+  margin-top: 0.75em;
   border-radius: 1em;
   background: url(img/search_icon.png) 10px 50% no-repeat, linear-gradient(rgb(131, 131, 131) 70%, rgb(112, 112, 112) 50%) no-repeat;
   background-size: 12px 12px;
@@ -210,16 +211,16 @@ form input {
 h1 {
   display: block;
   font-size: 3.5em;
-  margin-block-start: .67em;
-  margin-block-end: .67em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
   font-weight: bold;
 }
 
 h2 {
   display: block;
   font-size: 1.3em;
-  margin-block-start: .83em;
-  margin-block-end: .83em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
   font-weight: bold;
 }
 
