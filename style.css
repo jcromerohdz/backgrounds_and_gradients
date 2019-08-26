@@ -44,11 +44,8 @@ footer {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: 267px 250px;
-
   width: 33.33%;
-  /* three boxes (use 25% for four, and 50% for two, etc) */
   padding: 50px;
-  /* if you want space between the images */
 }
 
 #back1 {
@@ -115,8 +112,6 @@ footer {
   padding-top: 10px;
 }
 
-
-
 /* Navbar links on mouse-over */
 .topnav a:hover {
   background: rgba(51, 51, 51, 0.6);
@@ -126,11 +121,9 @@ footer {
 
 /* Active/current link */
 .topnav a.active {
-  background-color: #2196F3;
+  background-color: #2196f3;
   color: white;
 }
-
-.topnav ul {}
 
 /* Style the input container */
 .topnav .search-container {
