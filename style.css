@@ -115,8 +115,6 @@ footer {
 /* Navbar links on mouse-over */
 .topnav a:hover {
   background: rgba(51, 51, 51, 0.6);
-  /* background-color: #ddd;
-    color: black; */
 }
 
 /* Active/current link */
@@ -160,7 +158,7 @@ footer {
 
 form {
   display: block;
-  margin-top: 0em;
+  margin-top: 0.1em;
 }
 
 form input {
@@ -215,8 +213,6 @@ h1 {
   font-size: 3.5em;
   margin-block-start: 0.67em;
   margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
 }
 
@@ -226,8 +222,6 @@ h2 {
   font-size: 1.3em;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
   font-weight: bold;
 }
 
