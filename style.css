@@ -1,91 +1,72 @@
-body {
-  color: #fff;
+* {
   font-family: lato Light, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body {
+  background: #eee;
+}
+
+h1 {
+  display: block;
+  font-size: 3.5em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  display: block;
+  font-size: 1.3em;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  font-weight: bold;
+  color: white;
   text-align: center;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: minmax(100px, auto);
-  grid-gap: 5px;
-  max-width: 1080px;
+.containter {
+  width: 100%;
+  max-width: 1420px;
   margin: 0 auto;
 }
 
-header {
-  grid-column: 2 / 12;
-  grid-row: 2 / 2;
-  z-index: 2;
+.flex-container {
+  display: flex;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+  margin: 5px 50px 0 50px;
 }
 
-main {
-  grid-row: 1 / 7;
-  grid-column: 1 / 13;
+.box {
+  max-width: auto;
+}
+
+.one {
   background-image: url("img/your_verse_hero.jpg");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: auto;
+  position: relative;
+  height: 600px;
 }
 
-section {
-  grid-row: 7 / 11;
-  grid-column: 1 / 13;
+.two {
+  height: 200px;
+  display: flex;
+  max-width: 1440px;
+  min-width: 1024px;
+  margin: 0 auto;
 }
 
-footer {
-  grid-row: 9 / 11;
-  grid-column: 3 / 11;
-}
-
-.promoBox {
-  float: left;
-  background-image: url("img/promo_iphone5s.jpg");
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 267px 250px;
-  width: 33.33%;
-  padding: 50px;
-}
-
-#back1 {
-  float: left;
-  background-image: url(img/promo_iphone5s.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 270px 180px;
-  width: 272px;
-  height: 182px;
-}
-
-#back2 {
-  float: left;
-  background-image: url(img/promo_iphone5c.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 270px 180px;
-  width: 272px;
-  height: 182px;
-}
-
-#back3 {
-  float: left;
-  background-image: url(img/promo_30_years.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 270px 180px;
-  width: 272px;
-  height: 182px;
-}
-
-#back4 {
-  float: left;
-  background-image: url(img/promo_supplier_responsibility.jpg);
-  background-repeat: no-repeat;
-  background-position: bottom;
-  background-size: 270px 180px;
-  width: 263px;
-  height: 182px;
+.three {
+  height: 90px;
+  display: flex;
+  max-width: 1440px;
+  min-width: 1024px;
+  margin: 0 auto;
 }
 
 /* Style the navbar */
@@ -93,8 +74,16 @@ footer {
   overflow: hidden;
   background: linear-gradient(rgb(131, 131, 131) 50%, rgb(112, 112, 112) 50%);
   height: 2.5em;
+  width: 900px;
   border-radius: 5px;
   border: 1px solid rgb(116, 115, 115);
+  position: absolute;
+  top: 85px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 10;
 }
 
 /* Navbar links */
@@ -163,35 +152,6 @@ form input {
   border-radius: 25%;
 }
 
-.footerContent {
-  grid-column: 1/-1;
-  display: grid;
-  grid-template-columns: 0.9fr 1fr;
-  grid-template-rows: auto auto;
-  align-items: center;
-  align-content: center;
-  grid-column-gap: 5em;
-  grid-row-gap: 1em;
-  font-size: 0.49em;
-  color: dimgray;
-  padding-top: 1em;
-}
-
-.footerContent p a {
-  text-decoration: none;
-  color: rgb(0, 133, 195);
-}
-
-.footerContent p:nth-of-type(1) {
-  justify-self: right;
-}
-
-[alt="flag icon"] {
-  position: relative;
-  left: 23.5em;
-  top: -2.1em;
-}
-
 [type="search"] {
   width: 80%;
   margin-left: 1em;
@@ -206,20 +166,52 @@ form input {
   padding-left: 1em;
 }
 
-h1 {
-  display: block;
-  font-size: 3.5em;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  font-weight: bold;
+#back1 {
+  float: left;
+  background-image: url(img/promo_iphone5s.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 367px 200px;
+  position: relative;
+  width: 360px;
+  height: 200px;
+  cursor: pointer;
 }
 
-h2 {
-  display: block;
-  font-size: 1.3em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  font-weight: bold;
+#back2 {
+  float: left;
+  background-image: url(img/promo_iphone5c.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 367px 200px;
+  position: relative;
+  width: 360px;
+  height: 200px;
+  cursor: pointer;
+}
+
+#back3 {
+  float: left;
+  background-image: url(img/promo_30_years.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 367px 200px;
+  position: relative;
+  width: 360px;
+  height: 200px;
+  cursor: pointer;
+}
+
+#back4 {
+  float: left;
+  background-image: url(img/promo_supplier_responsibility.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 367px 200px;
+  position: relative;
+  width: 360px;
+  height: 200px;
+  cursor: pointer;
 }
 
 .ad-text-container {
@@ -246,8 +238,8 @@ h2 {
 }
 
 .ad-subhead {
-  width: 59%;
-  padding: 25px 0;
+  width: 50%;
+  padding: 10px 0;
 }
 
 .header-cta {
@@ -259,6 +251,52 @@ h2 {
   padding-top: 1%;
 }
 
-#footer-1 {
-  padding-bottom: 4%;
+
+.footer {
+  width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 12px;
+}
+
+.f-row {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-row,
+.f-nav {
+  display: flex;
+}
+
+.contact,
+.copy {
+  font-size: 10px;
+  color: rgb(90, 90, 90);
+}
+
+.f-nav {
+  font-size: 11px;
+  align-items: center;
+}
+
+.f-row,
+.f-nav {
+  display: flex;
+}
+
+.f-nav-item {
+  padding: 0 5px;
+  border-right: 1px solid rgb(216, 216, 216);
+}
+
+.f-nav-item:last-of-type {
+  border-right: none;
+}
+
+.usa {
+  position: relative;
+  top: 3px;
 }
