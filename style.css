@@ -251,7 +251,6 @@ form input {
   padding-top: 1%;
 }
 
-
 .footer {
   width: 1024px;
   margin-left: auto;
@@ -264,11 +263,6 @@ form input {
   margin-bottom: 15px;
   justify-content: space-between;
   align-items: center;
-}
-
-.f-row,
-.f-nav {
-  display: flex;
 }
 
 .contact,
